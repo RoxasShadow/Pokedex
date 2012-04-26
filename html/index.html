@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Pokédex</title>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/interface.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/jquery-ui.css" rel="stylesheet" />
+	<!--[if lt IE 7]><style>.dock img { behavior: url(iepngfix.htc) }</style><![endif]-->
+
+	<script src="js/pokedex.js"></script>
+	<script src="js/languages.js"></script>
+	<script src="js/engine.js"></script>
+</head>
+<body>
+	<div id="slider" class="slider"></div>
+	<div id="dex-container">
+		<table id="dex">
+			<tr>
+				<td id="num"></td>
+				<td id="name"></td>
+				<td id="mf"></td>
+				<td id="abilities"></td>
+				<td id="stats"></td>
+			</tr>
+			<tr>
+				<td id="_num"></td>
+				<td id="_name"></td>
+				<td id="_mf"></td>
+				<td id="_abilities"></td>
+				<td id="_stats"></td>
+			</tr>
+		</table>
+	</div>
+	<div id="artwork"></div>
+	<div class="dock" id="dock2">
+		<div class="dock-container2" id="dock-container2"></div>
+	</div>
+</body>
+</html>
